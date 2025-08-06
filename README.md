@@ -53,7 +53,7 @@ O dataset utilizado é o `spam.csv`, que contém mensagens de e-mail rotuladas c
   * Camada de entrada (`Input`) para sequência de 500 tokens.
   * Camada `Embedding` para transformar índices em vetores de dimensão 50.
   * Camada `Flatten` para achatar os vetores.
-  * Camada `Dense` com 10 neurônios e ativação ReLU.
+  * Camada `Dense` com 10 neurônios.
   * Camada `Dropout` para evitar overfitting.
   * Camada de saída `Dense` com ativação sigmoid para classificação binária.
 
